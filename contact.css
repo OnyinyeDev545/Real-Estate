@@ -441,9 +441,8 @@ html {
     }
 
     .main {
-        height: 550px;
-        margin-bottom: 40px;
-        border-radius: 15px;
+        height:auto;
+        padding-bottom:50px;
     }
 
     .nav-container {

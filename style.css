@@ -725,6 +725,7 @@ html {
 
     .nav-container{
         padding:20px;
+        position: relative;
     }
 
     .nav-content{
@@ -852,7 +853,7 @@ html {
     }
 
     .footer-middle-text h1{
-        font-size:30px;
+        font-size:25px;
     }
 
 
@@ -877,8 +878,8 @@ html {
         
     .search-bar {
         width: 180px;
-        margin: 0 auto;
         padding: 0;
+        margin-top: 15px;
     }
 
     .search-bar input {
@@ -888,10 +889,44 @@ html {
     .search-bar i {
         right: 12px;
     }
-
 }
 
 @media (max-width:480px){
+    body{
+        padding: 10px;
+    }
+    .main {
+        height: 500px;
+        border-radius: 10px;
+    }
+
+    .nav-container {
+        padding: 20px 15px;
+    }
+
+    .logo h2 {
+        font-size: 16px;
+    }
+
+    .logo span {
+        font-size: 19px;
+    }
+
+    .logo i {
+        font-size: 15px;
+    }
+
+    .hamburger {
+        padding: 7px;
+    }
+
+    .hamburger span {
+        width: 22px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
 
     .logo h2{
         font-size:18px;

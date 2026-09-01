@@ -480,14 +480,13 @@ html {
     }
 
     .main {
-        height: 550px;
-        border-radius: 15px;
-        margin-bottom: 30px;
+        height:auto;
+        padding-bottom:50px;
     }
 
 
     .nav-container {
-        padding: 25px 20px;
+        padding: 20px;
         position: relative;
     }
 
@@ -543,8 +542,9 @@ html {
     }
 
     .content h3 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         line-height: 1.5;
+        margin-bottom: 15px;
     }
 
     .content p {
@@ -613,6 +613,21 @@ html {
 
     .search-bar i {
         right: 20px;
+
+    }
+    
+    .search-bar {
+        width: 180px;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .search-bar input {
+        width: 100%;
+    }
+
+    .search-bar i {
+        right: 12px;
     }
 
     .footer-bottom {
@@ -634,11 +649,11 @@ html {
 
     .main {
         height: 500px;
-        border-radius: 12px;
+        border-radius: 10px;
     }
 
     .nav-container {
-        padding: 20px 15px;
+        padding: 15px;
     }
 
     .logo h2 {
